@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Roboto&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/mycss/result.css">
+    <link rel="stylesheet" href="assets/mycss/fontAwesome/css/all.css">
+    <title>result dashboard</title>
+</head>
+<body>
+    
+
+    <header>
+        <div class="header">
+                <h3>Logo</h3>
+                <div class="right">
+                    <div  class="dropdown1">
+                        <a href=""><i class="far fa-bell"></i></a>
+                        <div class="dropdown-content1">
+                            <p>notifications</p>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown2">
+                        <div class="dd-flex">
+                            <img src="assets/images/graduand.jpg" class="avatar"> 
+                            <span><i class="fas fa-angle-down"></i></span>
+                        </div>
+                        
+                       
+                        <div class="dropdown-content2">
+                            <a href="#">Home</a>
+                            <a href="#">Change password</a>
+                            <hr class="hr2">
+                            <a href="#">Sign Out</a>
+                        </div>
+                
+                    </div>
+                    
+        
+                </div>
+        </div>
+    </header>
+
+    <section class="heading container">
+        <h3>Student Report</h3>
+        <button>Send/Download report</button>
+    </section>
+
+    <div class="container">
+            <hr class="hr1">
+    </div>
+    
+
+    <section class="container information">
+
+       
+
+            <div class="student-info-head">
+                    <h3>Student Information</h3>
+                    <h3 class="sa">School Attendance</h3>
+                    <h3>      </h3>
+                   
+            </div>
+            
+            <hr class="hr2">
+
+            <div class="info">
+
+                <div class="student-info">
+                    <div class="round">
+                        <img src="assets/images/graduand.jpg" alt="" class="avatar-big">
+                    </div>
+
+                    <div>
+                        <p>Student Name</p>
+                        <h3 class="b">Somto Promise</h3>
+
+                        <div class="sub-info">
+                            <div class="a">
+                                <p>Class</p>
+                                <h3>BASIC 7A</h3>
+                            </div>
+                            
+                            <div>
+                                <p>session</p>
+                                <h3>2nd term</h3>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="school-attendance">
+                    <div class="js-score-percent">
+                            <canvas id="myChart"></canvas>
+                    </div>
+                    <div>
+                            <p>times school opened</p>
+                            <h3 class="b">66</h3>
+                            <div class="sub-info">
+                                <div class="a">
+                                    <p>Time present</p>
+                                    <h3>66</h3>
+                                </div>
+                                <div>
+                                    <p>Time absent</p>
+                                    <h3>Nil</h3>
+                                </div>
+                                    
+                            </div>
+                    </div>
+                        
+                </div>
+                
+        
+
+                <div class="resumption">
+            
+                    <p>closing date</p>
+                    <h3 class="b">12th April, 2019</h3>
+                    <p>resumption date</p>
+                    <h3>29th April, 2019</h3>
+                </div>
+
+            </div>
+    </section>
+
+
+    <section class="table">
+        <div class="container">   
+            <div class="table-head">
+            
+                    <div class="left">
+                            <h3>Report sheet</h3>
+                            <button><i class="fas fa-plus"></i>  <span class="btn-text">Create new</span> </button>
+                    </div>
+                    
+                    <div class="right">
+                            <button class="sort"><i class="fas fa-sort-amount-up"></i> sort</button>
+                    </div>
+            </div>
+
+            <div class="grades">
+                
+                <div class='grades-header blue-text'>
+                        <h4>Subject</h4>
+                        <h4>C.A (40)</h4>
+                        <h4>Exam (60)</h4>
+                        <h4>Total (100)</h4>
+                        <h4>GP</h4>
+                        <h4>Class Ave</h4>
+                        <h4>Position</h4>
+                        
+                </div>
+    
+                <div class="grades-header">
+                   
+                        <li>Religion & natinal values</li>
+                        <li>34</li>
+                        <li>34</li>
+                        <li>34</li>
+                        <li class="A">A</li>
+                        <li>73.7</li>
+                        <li class="pos">6th</li>
+                        
+                </div>
+
+                <div class="grades-header">
+                   
+                        <li>Business studies</li>
+                        <li>35</li>
+                        <li>35</li>
+                        <li>35</li>
+                        <li class="A">A</li>
+                        <li>83</li>
+                        <li class="pos">5th</li>
+                        
+                </div>
+
+                <div class="grades-header">
+                   
+                        <li>Mathematics</li>
+                        <li>32</li>
+                        <li>32</li>
+                        <li>32</li>
+                        <li class="A">A</li>
+                        <li>81.7</li>
+                        <li class="pos">8th</li>
+                        
+                </div>
+
+                <div class="grades-header">
+                   
+                        <li>English studies</li>
+                        <li>25</li>
+                        <li>25</li>
+                        <li>25</li>
+                        <li class="B">B</li>
+                        <li>57.5</li>
+                        <li class="pos">8th</li>
+                        
+                </div>
+
+                <div class="grades-header">
+                   
+                        <li>Literature</li>
+                        <li>32</li>
+                        <li>32</li>
+                        <li>32</li>
+                        <li class="C">C</li>
+                        <li>58.2</li>
+                        <li class="pos">12th</li>
+                        
+                </div>
+
+                <div class="grades-header">
+                   
+                        <li>Yoruba</li>
+                        <li>34</li>
+                        <li>34</li>
+                        <li>34</li>
+                        <li class="A">A</li>
+                        <li>63.1</li>
+                        <li class="pos">2nd</li>
+                        
+                </div>
+
+                <div class="grades-header">
+                   
+                        <li>Creative & cultural Arts</li>
+                        <li>33</li>
+                        <li>33</li>
+                        <li>33</li>
+                        <li class="A">A</li>
+                        <li>71.3</li>
+                        <li class="pos">5th</li>
+                        
+                </div>
+
+                <div class="grades-header">
+                   
+                        <li>Vocational studies</li>
+                        <li>38</li>
+                        <li>38</li>
+                        <li>38</li>
+                        <li class="A">A</li>
+                        <li>71.3</li>
+                        <li class="pos">1st</li>
+                        
+                </div>
+
+                <div class="grades-header">
+                   
+                        <li>French</li>
+                        <li>20</li>
+                        <li>20</li>
+                        <li>20</li>
+                        <li class="A">A</li>
+                        <li>71.3</li>
+                        <li class="pos">10th</li>
+                        
+                </div>
+
+                <div class="grades-header">
+                   
+                        <li>Religion & natinal values</li>
+                        <li>34</li>
+                        <li>34</li>
+                        <li>34</li>
+                        <li class="A">A</li>
+                        <li>71.3</li>
+                        <li class="pos">11th</li>
+                        
+                </div>
+
+                <div class="total">
+                    <h4>Total Marks: 761</h4>
+                    <h4>Average Points: 76.1%</h4>
+                </div> 
+
+             </div>
+                
+
+           <div class="remarks">
+
+                <div class="skill">
+                    <div class="skillset"> 
+                        <h4>Skills</h4>
+                        <h4>Remarks</h4>
+                    </div>
+
+                    <div class="skillset">
+                        <li>Hand Writing</li> 
+                        <li>Not Legible</li>
+                    </div>
+
+                    <div class="skillset">
+                        <li>verbal Fluency</li> 
+                        <li>Good</li>
+                    </div>
+
+                    <div class="skillset">
+                        <li>Sport</li> 
+                        <li>Active</li>
+                    </div>
+
+                    <div class="skillset">
+                        <li>Handling Tools</li> 
+                        <li>Good</li>
+                    </div>
+
+                    <div class="skillset">
+                        <li>Drawing and Painting</li> 
+                        <li>Good</li>
+                    </div>
+
+                    <div class="skillset">
+                        <li>Musical Skills</li> 
+                        <li>Good</li>
+                    </div>
+
+                </div>
+
+               
+
+                <div class='teacher'>
+                    <h4>Teacher Remark</h4>
+                    <div class="red">
+                        <p>She is intelligent but often playful</p>
+                    </div>
+                </div>
+                
+                <div class="principal">
+                    <h4>Principal Remark</h4>
+                    <div class="orange">
+                        <p>An excellent result, keep it up</p>
+                    </div>
+                </div>
+           </div>
+
+        </div>
+
+           <section class="footer">
+                <div class="container footer-ft">
+                    <h3>Logo</h3>
+                    <p>footer contents goes here</p>
+                    <p>address content</p>
+                </div>
+           </section>
+
+            
+        
+
+    </section>
+   
+
+    <!-- <script src="https://kit.fontawesome.com/0fdae1536a.js" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myDoughnutChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                // labels: ['times present', 'times absent'],
+                datasets: [{
+                label: 'My First dataset',
+                backgroundColor: ['orange', 'white'],
+                borderColor: ['orange', 'white'],
+                data: [66, 23]
+                }]
+            },
+
+            option: {
+               
+            }
+
+        });
+    </script>
+</body>
+</html>
